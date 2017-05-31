@@ -1,0 +1,40 @@
+[
+    {
+        "id" : "journal",
+        "episodes" : [
+            {
+                "titre" : "Tanta Sangre",
+                "date" : "20 mars 2017",
+                "fichierMD" : "tantasangre"
+            },
+            {
+                "titre" : "Straight to hell",
+                "date" : "20 mars 2017",
+                "fichierMD" : "e1-Leo"
+            },
+            {
+                "titre" : "Quel est le titre de ton épisode luvan ?",
+                "date" : "20 mars 2017",
+                "fichierMD" : "e1-luvan"
+            }
+        ]
+    },
+    {
+        "id" : "apropos",
+        "fichierMD" : "apropos"
+    },
+    {
+        "id" : "categories",
+        "fichierMD" : "categories",
+        "onglets" : ["medias", "nombre"],
+        "medias" : ["Images", "Retranscriptions", "Sons", "Vidéos"]
+    },
+    {
+        "id" : "presse",
+        "fichierMD" : "presse"
+    },
+    {
+        "id" : "rencontres",
+        "fichierMD" : "rencontres"
+    }
+]

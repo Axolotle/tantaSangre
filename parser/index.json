@@ -1,0 +1,59 @@
+{
+    "title" : "Sisifo - journal d'écriture",
+    "meta" : [
+        {
+            "name" : "viewport",
+            "content" : "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+            "name" : "description",
+            "content" : ""
+        },
+        {
+            "name" : "keywords",
+            "content" : ""
+        },
+        {
+            "name" : "author",
+            "content" : "Laure Afchain"
+        }
+    ],
+    "link" : [
+        {
+            "rel" : "stylesheet",
+            "href" : "style.css"
+        }
+    ],
+    "menu" : [
+        {
+            "id" : "journal",
+            "content" : "journal d'écriture"
+        },
+        {
+            "id" : "apropos",
+            "content" : "à propos"
+        },
+        {
+            "id" : "categories",
+            "content" : "catégories"
+        },
+        {
+            "id" : "presse",
+            "content" : "presse"
+        },
+        {
+            "id" : "rencontres",
+            "content" : "rencontres"
+        },
+        {
+            "id" : "abonnement",
+            "content" : "abonnement"
+        },
+        {
+            "href" : "https://www.facebook.com/sisifo.site",
+            "content" : "facebook"
+        }
+
+
+    ]
+}
