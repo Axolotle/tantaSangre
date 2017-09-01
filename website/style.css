@@ -1,0 +1,305 @@
+/*
+CSS
+*/
+
+/* FONTES */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fontes/roboto-regular-webfont.woff2') format('woff2'),
+         url('fontes/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fontes/roboto-italic-webfont.woff2') format('woff2'),
+         url('fontes/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('fontes/droidserif-bold-webfont.woff2') format('woff2'),
+         url('fontes/droidserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('fontes/droidserif-bolditalic-webfont.woff2') format('woff2'),
+         url('fontes/droidserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bold italic;
+}
+
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('fontes/droidserif-italic-webfont.woff2') format('woff2'),
+         url('fontes/droidserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('fontes/droidserif-regular-webfont.woff2') format('woff2'),
+         url('fontes/droidserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* GLOBAL */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	font-size:13px;
+	height:95%;
+	color:black;
+	font-family: 'robotoregular', sans-serif;
+	background-color:yellow;
+}
+
+
+
+#main {
+	height:100%;
+	width:90%;
+	margin:2em auto 0 auto;
+}
+
+section {
+	background-color:white;
+	width:100%;
+	float:left;
+	margin-top:2px;
+}
+
+
+a, :hover, :visited, :active {
+	text-decoration:none;
+	color:inherit;
+}
+
+
+
+
+/* ONGLETS */
+
+h4 {
+    width: calc(45% - 1.75em);
+    margin-left: 2em;
+    margin-right: 1em;
+		font-style:bold;
+		cursor:pointer;
+
+}
+
+
+.date {
+    width: calc(45% - 1.75em);
+    margin-right: 1em;
+}
+
+.lien {
+    width: calc(10% - 1.75em);
+    margin-right: 1em;
+		cursor:pointer;
+		text-decoration:underline;
+}
+
+
+.onglet {
+	height:3.5em;
+	border-bottom:1px solid black;
+	display:inline-block;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* EPISODES */
+
+.entete {
+	width:100%;
+	background-color:black;
+	color:white;
+	height:3em;
+}
+
+
+article {
+	width:100%;
+	margin-top:-1px;
+	position:relative;
+	border-bottom:1px solid black;
+
+}
+
+
+.episode {
+	/*height:600px;*/
+	border-bottom:1px solid black;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	/*margin-top:2em; */
+
+    display: none; /*ADDED*/
+}
+
+.episode img, iframe {
+	max-width:95%;
+  margin:1em auto;
+  display: flex;
+}
+
+.episode p {
+	width: 90%;
+	margin: 1em auto;
+}
+
+
+.txtcourant {
+	font-family:"droid_serifregular", serif;
+	width: 90%;
+	margin: 0 auto;
+	font-size:1.25em;
+	line-height:150%;
+}
+
+.notebdp p {
+	font-family: 'robotoregular', sans-serif;
+	font-size:1em !important; /* trouver un moyen de pas utiliser cette astuce ! */
+}
+
+.aster {
+	text-align:center;
+	font-size:1.75em !important; /* trouver un moyen de pas utiliser cette astuce ! */
+}
+
+.lien_sisifo {
+	text-align:right;
+	margin:2em 0 !important; /* trouver un moyen de pas utiliser cette astuce ! */
+	width:90% !important;
+}
+
+.lien_sisifo a {
+	text-transform: uppercase;
+	background-color:black;
+	font-size:1em !important;
+	color:white;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+	padding:1em 0 1em 0;
+	text-align:center;
+	width:100%;
+	background-color:black;
+	color:white;
+	margin-top:2em;
+}
+
+ul {
+	list-style-type: none
+}
+
+/* PAGES SOLOS */
+.entetesolo {
+  text-align:center;
+  padding-top:0.25em;
+  font-size:1.25em;
+  font-style:bold;
+  background-color:black;
+  color:white;
+  width:100%;
+  height:1.8em;
+  font-weight:bold;
+}
+.solo {
+  width: 70%;
+	margin: 1em auto;
+}
+
+.solo a {
+  text-decoration:underline;
+
+}
+
+.logo {
+    max-width: 150px;
+    margin: 1em;
+    display: inline-block;
+
+}
+.center {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 300px) {
+	.episode p {
+font-size:1em;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.episode p {
+font-size:1.25em;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.episode p {
+		width: 75%;
+}
+}
+
+@media screen and (min-width: 850px) {
+	section {
+		width:80%;
+}
+
+	.sidebar {
+		width: calc(20% - 2em);
+		margin:0 0 0 2em;
+}
+}
+
+
+@media screen and (min-width: 1100px) {
+.episode p {
+	width: 60%;
+}
+}

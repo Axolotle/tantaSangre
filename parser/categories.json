@@ -3,31 +3,30 @@
         "id" : "journal",
         "episodes" : [
             {
-                "titre" : "Tanta Sangre",
-                "date" : "20 mars 2017",
-                "fichierMD" : "tantasangre"
-            },
-            {
                 "titre" : "Straight to hell",
-                "date" : "20 mars 2017",
+                "date" : "6 juillet 2017",
                 "fichierMD" : "e1-Leo"
             },
             {
-                "titre" : "Quel est le titre de ton épisode luvan ?",
-                "date" : "20 mars 2017",
+                "titre" : "Tanta Sangre",
+                "date" : "6 juillet 2017",
                 "fichierMD" : "e1-luvan"
+            },
+            {
+                "titre" : "À la guerre, jouer pour de vrai",
+                "date" : "1 septembre 2017",
+                "fichierMD" : "e2-Leo"
+            },
+            {
+                "titre" : "Le Pont des Français",
+                "date" : "1 septembre 2017",
+                "fichierMD" : "e2-luvan"
             }
         ]
     },
     {
         "id" : "apropos",
         "fichierMD" : "apropos"
-    },
-    {
-        "id" : "categories",
-        "fichierMD" : "categories",
-        "onglets" : ["medias", "nombre"],
-        "medias" : ["Images", "Retranscriptions", "Sons", "Vidéos"]
     },
     {
         "id" : "presse",

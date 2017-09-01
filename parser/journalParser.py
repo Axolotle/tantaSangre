@@ -14,10 +14,8 @@ def readMDfile(mdfile):
         while mdOutput.find("<p><img") != -1:
             i = mdOutput.find("<p><img")
             x = mdOutput.find("</p>", i)
-            print(i,x)
             mdOutput = mdOutput[0:i] + mdOutput[i+3:x] + mdOutput[x+4:]
 
-        print(mdOutput)
     return mdOutput
 
 
@@ -106,8 +104,8 @@ class Sections():
 
         if self.info["id"] == "journal":
             doc.asis(self.journal())
-        elif self.info["id"] == "categories":
-            doc.asis(self.categories())
+        ##elif self.info["id"] == "categories":
+        ##    doc.asis(self.categories())
         else:
             doc.asis(readMDfile(self.info["fichierMD"]))
 
@@ -128,8 +126,6 @@ class Sections():
                     line("h4", ep["titre"])
                     line("p", ep["date"], klass="date")
                     line("p", "lire", klass="lien")
-
-                print(readMDfile("ep/"+ep["fichierMD"]))
 
                 with tag("div", id=ep["fichierMD"], klass="episode"):
                     doc.asis(readMDfile("ep/"+ep["fichierMD"]))
@@ -160,7 +156,5 @@ class Sections():
 
 MainIndex("index")
 
-categories = readJSONfile("categories")
-
-for categorie in categories:
+for categorie in readJSONfile("categories"):
     Sections(categorie)
