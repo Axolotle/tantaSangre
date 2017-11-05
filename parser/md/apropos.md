@@ -11,7 +11,8 @@
 {: .solo #center}
 
 *Sísifo* est porté par l'association  
-**Les Règles de la nuit**  
+**Les Règles de la nuit**
+{: .solo #center}
 
 <div markdown=1 class="center">
 ![logoEuroMetro](medias/logos/lesreglesdelanuit.png){: .logo}

@@ -198,6 +198,9 @@ article {
 	font-family: 'robotoregular', sans-serif;
 	font-size:1em !important; /* trouver un moyen de pas utiliser cette astuce ! */
 }
+.notebdp {
+    margin: 2em 0em;
+}
 
 .aster {
 	text-align:center;
