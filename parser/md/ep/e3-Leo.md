@@ -173,7 +173,7 @@ Vous qui parliez de liberté tendez à votre tour les mains*
 *On dit ce que l’on veut en vers l’amour la mort  
 							mais pas la honte*
 
-Louis Aragon, *&nbsp;Les Pages lacérées&nbsp;*, 1956
+Louis Aragon, «&nbsp;Les Pages lacérées&nbsp;», 1956
 
 <div class="notebdp" markdown="1">
 Quelques sources&#8239;:
