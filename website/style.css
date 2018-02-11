@@ -268,6 +268,19 @@ ul {
     margin-bottom: 2em;
 }
 
+.double {
+    margin-left: 20%;
+    /* margin: 1em auto; */
+    font-size: 0.9em;
+}
+.right {
+    display: inline-block;
+    width: 55% !important;
+}
+.left {
+    display: inline-block;
+    width: 44.5% !important;
+}
 
 /* MEDIA QUERIES */
 
@@ -287,6 +300,9 @@ font-size:1.25em;
 	.episode p {
 		width: 75%;
 }
+.double {
+    margin-left: 12.5%;
+}
 }
 
 @media screen and (min-width: 850px) {
@@ -304,5 +320,8 @@ font-size:1.25em;
 @media screen and (min-width: 1100px) {
 .episode p {
 	width: 60%;
+}
+.double {
+    margin-left: 20%;
 }
 }
