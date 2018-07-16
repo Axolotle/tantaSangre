@@ -185,6 +185,11 @@ article {
 	margin: 1em auto;
 }
 
+.episode a {
+  text-decoration: underline;
+  color: blue;
+}
+
 
 .txtcourant {
 	font-family:"droid_serifregular", serif;
@@ -255,6 +260,11 @@ ul {
 .solo a {
   text-decoration:underline;
 
+}
+
+.citation {
+  font-weight: bold;
+  padding: 0 5em;
 }
 
 .logo {
