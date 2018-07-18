@@ -38,21 +38,21 @@ De deux sombres lunes.
 Rechantons Amari.
 <div class="citation" markdown="1">
 
-La guerre semble d’aboord une jeune épousée,  
-qui chare et qui séduit, qu’on aime et qu’on désire.  
-Son visage a l’éclat de la saison nouvelle,  
-sa chevalure est noire comme les nuits d’hiver.  
-Qui regarde sa face en devient fou d’amour,  
-qui la voit s’avancer en est ensorcelé.  
-Mais quand finalement de sa fournaise ardente  
-les flammes de la haine s’élancent vers le ciel,  
-On voit un loup, un être affreux et repoussant,  
-un porc aux dents cassées, une vieille au crin blanc.  
-Elle n’est plus la belle à l’œillae assassine,  
-celle dont le baiser met les cœurs au pillage&#8239;:  
-Ce qu’elle tue, ce sont les coprs des jeunes hommes&#8239;;  
-Ce qu’elle pille, c’est la vie des combattants.  
-Qui l’a vue s’vancer, son corps gonfle la terre&#8239;;  
+La guerre semble d’abord une jeune épousée,
+qui charme et qui séduit, qu’on aime et qu’on désire.
+Son visage a l’éclat de la saison nouvelle,
+sa chevelure est noire comme les nuits d’hiver.
+Qui regarde sa face en devient fou d’amour,
+qui la voit s’avancer en est ensorcelé.
+Mais quand finalement de sa fournaise ardente
+les flammes de la haine s’élancent vers le ciel,
+On voit un loup, un être affreux et repoussant,
+un porc aux dents cassées, une vieille au crin blanc.
+Elle n’est plus la belle à l’œillade assassine,
+celle dont le baiser met les cœurs au pillage&#8239;:
+Ce qu’elle tue, ce sont les corps des jeunes hommes&#8239;;
+Ce qu’elle pille, c’est la vie des combattants.
+Qui l’a vue s’avancer, son corps gonfle la terre&#8239;;
 qui la regarde en face, il lui tourne le dos.
 </div>
 
