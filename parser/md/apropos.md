@@ -7,7 +7,7 @@
 *Sísifo* est composé de deux volets : des [épisodes](https://sisifo.site) de fiction pensés pour le web, et un [journal](https://sisifo.site/sisifo/journal/) de recherche et de documentation.
 {: .solo #center}
 
-*Sísifo* est mis en ligne par épisode, de l'été 2017 à l'été 2018. Il sera ensuite librement disponible dans son intégralité.
+*Sísifo* est mis en ligne par épisode, de l'été 2017 à l'hiver 2018. Il sera ensuite librement disponible dans son intégralité.
 {: .solo #center}
 
 *Sísifo* est porté par l'association  
@@ -18,10 +18,13 @@
 ![logoEuroMetro](medias/logos/lesreglesdelanuit.png){: .logo}
 </div>
 
-Avec le soutien de **Strasbourg Eurométropole**, la **Médiathèque André Malraux** et le **Shadok**.
+Avec le soutien de la **Région Grand Est**, **Strasbourg Eurométropole**, la **Médiathèque André Malraux** et le **Shadok**.
 {: .solo}
 
 <div markdown=1 class="center">
+![logoGrandEst](medias/logos/grandEst.svg){: .bigLogo}
+</div>
+<div markdown=1 class="small center">
 ![logoEuroMetro](medias/logos/logostrasbourg.png){: .logo}
 
 ![logoEuroMetro](medias/logos/Mediatheques_blanc-cus.jpg){: .logo}
