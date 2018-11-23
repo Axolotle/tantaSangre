@@ -266,6 +266,9 @@ ul {
   font-weight: bold;
   padding: 0 5em;
 }
+.citation span {
+    font-weight: normal;
+}
 
 .small {
     display: flex;

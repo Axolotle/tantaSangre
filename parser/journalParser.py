@@ -8,7 +8,7 @@ def readMDfile(mdfile):
     with open("md/" + mdfile + ".md", mode="r", encoding="utf-8") \
     as mdInput:
         texte = mdInput.read()
-        mdOutput = markdown.markdown(texte, ["markdown.extensions.extra"])
+        mdOutput = markdown.markdown(texte, extensions=["markdown.extensions.extra"])
 
         # clearing useless p tag around img tags
         while mdOutput.find("<p><img") != -1:
